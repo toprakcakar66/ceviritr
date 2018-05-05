@@ -1,0 +1,2 @@
+# ceviritr
+Çeviri Discord botu
