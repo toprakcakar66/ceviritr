@@ -1,0 +1,16 @@
+{
+  "name": "toprakt",
+  "version": "0.0.1",
+  "description": "toprak",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "Toprak T",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "embed": "0.0.1",
+    "node-google-translate-skidz": "^1.1.2"
+  }
+}
