@@ -6,6 +6,10 @@ client.on('ready', () => {
   console.log(`Bot Giriş Yaptı!`);
 });
 
+client.on('ready', () => {
+  client.user.setStatus("PLAYING"); 
+  client.user.setActivity('-yardım', { type: "PLAYING"}); 
+})
 
   client.on("message", (message) => {
     const arg = message.content.slice(prefix.length).trim().split(/ +/g);
