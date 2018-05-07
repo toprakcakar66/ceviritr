@@ -79,6 +79,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+  if (message.content === prefix + 'yapmıcı') {
+    message.channel.send('Yapımcım Toprak T#9528 , {files: ["./foto/toprak.png"]}');
+  }
+});
+
+client.on('message', message => {
   if (message.content === prefix + 'davet') {
     message.channel.send('https://discordapp.com/oauth2/authorize?client_id=442284088506974218&scope=bot&permissions=8');
   }
