@@ -80,7 +80,7 @@ client.on('message', message => {
 
 client.on('message', message => {
   if (message.content === prefix + 'yapmıcı') {
-    message.channel.send('Yapımcım Toprak T#9528 , {files: ["./foto/toprak.png"]}');
+    message.channel.send('Yapımcım Toprak T#9528 , {files: ["./toprak.jpg"]}');
   }
 });
 
