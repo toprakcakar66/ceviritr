@@ -2,7 +2,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-var prefix = "r!";
+var prefix = "ks!";
 var owner = "427061793123205131";
 
 client.on('ready', () => {
@@ -15,7 +15,7 @@ client.on('message', msg => {
    const embed = new Discord.RichEmbed()
    .addField(`Selam ben ${client.user.username}`, "Buda komutlarım")
 
-   .addField(`${prefix}aboneol`, `Rhudaur TV Youtube kanalının linkini atar.`)
+   .addField(`${prefix}aboneol`, `Kemal Eray Sönmez Youtube kanalının linkini atar.`)
 
    .addField(`${prefix}davulcusözü`, `Rastegele bir davulcu sözü atar.`)
 
@@ -23,9 +23,9 @@ client.on('message', msg => {
    
    .addField(`${prefix}platdesteaç`, `Platin deste açar.`)
 
-   .addField(`${prefix}rastgeleyayın`, `Rhudaur TV'in videolarından birisini atar.`)
+   .addField(`${prefix}rastgeleyayın`, `Kemal Eray Sönmez'in yayınlardan birisini atar.`)
 
-   .addField(`${prefix}sonyayın`, `Rhudaur TV'in yapmış olduğu en son yayını atar atar.`)
+   .addField(`${prefix}sonyayın`, `Kemal Eray Sönmez'in yapmış olduğu en son yayını atar atar.`)
 
    .addField(`${prefix}yayın`, `Yayın var mı yok mu onu söyler.`)
 
@@ -66,7 +66,7 @@ client.on('message', msg => {
       msg.channel.sendMessage('https://www.youtube.com/watch?v=WuOXqYIzaNs')
   }
   if (msg.content.toLocaleLowerCase() === prefix + "aboneol") {
-    msg.channel.sendMessage('https://www.youtube.com/channel/UC9THRA9843yaiQygMU4mw3g')
+    msg.channel.sendMessage('https://www.youtube.com/channel/UCtE2HbdsE4Q6G1VKDGVItmA')
   }
   if (msg.content === prefix + "rastgeleyayın") {
     function get_random(list) {
